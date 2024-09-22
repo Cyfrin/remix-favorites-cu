@@ -5,9 +5,11 @@ This is part of the Cyfrin Updraft Vyper Course.
 ## Getting Started
 
 1. Go to [Remix](https://remix.ethereum.org/)
+   1. Or just [click here!](https://remix.ethereum.org/#url=https://github.com/Cyfrin/remix-favorites-cu/Favorites.vy)
 2. Paste the code from `Favorites.vy` into a new file in Remix
 3. Hit `Compile`
 4. Hit `Deploy`
+
 
 # Thank you!
 
