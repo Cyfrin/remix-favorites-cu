@@ -31,7 +31,7 @@ def retrieve() -> uint256:
 
 @external
 def add_person(name: String[100], favorite_number: uint256):
-    new_person: Person = Person({favorite_number: favorite_number, name: name})
+    new_person: Person = Person(favorite_number = favorite_number, name = name)
     self.list_of_people[self.list_of_people_index] = new_person
     self.list_of_numbers[self.list_of_people_index] = favorite_number
     self.list_of_people_index += 1
