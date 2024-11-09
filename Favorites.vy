@@ -3,11 +3,11 @@
 # pragma version 0.4.0
 # @license MIT
 
-my_favorite_number: uint256
-
 struct Person:
     favorite_number: uint256
     name: String[100]
+
+my_favorite_number: uint256
 
 # Static Array/List
 list_of_numbers: public(uint256[5])
