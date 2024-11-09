@@ -15,6 +15,10 @@ list_of_people_index: uint256
 
 name_to_favorite_number: HashMap[String[100], uint256]
 
+@deploy
+def __init__():
+    self.my_favorite_number = 7
+
 @external
 def store(favorite_number: uint256):
     self.my_favorite_number = favorite_number
