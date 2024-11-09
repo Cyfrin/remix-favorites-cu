@@ -10,6 +10,7 @@ struct Person:
     name: String[100]
 
 # Static Array/List
+list_of_numbers: public(uint256[5])
 list_of_people: public(Person[5])
 list_of_people_index: uint256
 
@@ -32,5 +33,6 @@ def retrieve() -> uint256:
 def add_person(name: String[100], favorite_number: uint256):
     new_person: Person = Person({favorite_number: favorite_number, name: name})
     self.list_of_people[self.list_of_people_index] = new_person
+    self.list_of_numbers[self.list_of_people_index] = favorite_number
     self.list_of_people_index += 1
     self.name_to_favorite_number[name] = favorite_number
